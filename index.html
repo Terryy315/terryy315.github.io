@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Hobby Project</title>
+  <meta name="description" content="A short description of the project.">
+  <!-- Relative paths (no leading slash) so it works under /YOUR-REPO/ -->
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="brand" href="./">My Hobby Project</a>
+    <nav>
+      <a href="./" aria-current="page">Home</a>
+      <a href="build.html">Build</a>
+      <a href="https://github.com/YOUR-USER/YOUR-REPO">GitHub</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero / intro -->
+    <section class="hero">
+      <h1>My Hobby Project</h1>
+      <p class="lead">One or two sentences about what it is and why you built it.</p>
+      <figure>
+        <img src="images/hero.jpg" alt="Finished project on the workbench">
+        <figcaption>The finished build.</figcaption>
+      </figure>
+    </section>
+
+    <!-- Regular text section -->
+    <section>
+      <h2>About</h2>
+      <p>
+        Regular paragraph text goes here. You can include <strong>bold</strong>,
+        <em>italic</em>, <a href="build.html">links</a>, and <code>inline code</code>.
+      </p>
+      <p>Another paragraph. Keep them short and the page stays easy to read.</p>
+
+      <h3>Features</h3>
+      <ul>
+        <li>Feature one</li>
+        <li>Feature two</li>
+        <li>Feature three</li>
+      </ul>
+
+      <h3>Build steps</h3>
+      <ol>
+        <li>Order the parts</li>
+        <li>Solder the board</li>
+        <li>Flash the firmware</li>
+      </ol>
+    </section>
+
+    <!-- Image with text side by side (stacks on phones) -->
+    <section>
+      <h2>Hardware</h2>
+      <div class="split">
+        <img src="images/board.jpg" alt="Assembled PCB, top view">
+        <div>
+          <h3>The board</h3>
+          <p>Text beside the picture. Describe the design choices, the chips used, anything interesting.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery grid -->
+    <section>
+      <h2>Gallery</h2>
+      <div class="gallery">
+        <figure>
+          <img src="images/photo1.jpg" alt="Prototype on a breadboard" loading="lazy">
+          <figcaption>Early prototype</figcaption>
+        </figure>
+        <figure>
+          <img src="images/photo2.jpg" alt="Case being 3D printed" loading="lazy">
+          <figcaption>Printing the case</figcaption>
+        </figure>
+        <figure>
+          <img src="images/photo3.jpg" alt="Final assembly" loading="lazy">
+          <figcaption>Final assembly</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Parts table -->
+    <section>
+      <h2>Parts list</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Part</th><th>Qty</th><th>Notes</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Microcontroller</td><td>1</td><td>Any board with enough GPIO</td></tr>
+            <tr><td>10k resistor</td><td>4</td><td>1/4 W</td></tr>
+            <tr><td>LED</td><td>2</td><td>3 mm, red</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Code block -->
+    <section>
+      <h2>Flashing</h2>
+      <pre><code>git clone https://github.com/YOUR-USER/YOUR-REPO.git
+cd YOUR-REPO/firmware
+make flash</code></pre>
+    </section>
+
+    <!-- Highlighted note -->
+    <aside class="note">
+      <strong>Heads up:</strong> use this box for warnings, tips, or safety notes.
+    </aside>
+
+    <!-- Downloads -->
+    <section>
+      <h2>Downloads</h2>
+      <ul>
+        <li><a href="files/schematic.pdf">Schematic (PDF)</a></li>
+        <li><a href="files/gerbers.zip">Gerber files (ZIP)</a></li>
+      </ul>
+    </section>
+
+    <!-- License -->
+    <section>
+      <h2>License</h2>
+      <p>
+        Hardware: CERN-OHL-P v2. Firmware: MIT. Documentation: CC BY 4.0.
+        See the <a href="https://github.com/YOUR-USER/YOUR-REPO">repository</a> for details.
+      </p>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <small>&copy; 2026 My Hobby Project</small>
+  </footer>
+
+</body>
+</html>
